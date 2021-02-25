@@ -1,0 +1,117 @@
+
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	src: url("../font/Roboto-Black.ttf");
+	font-family: tieude
+}
+@font-face{
+	src: url("../font/Roboto-Regular.ttf");
+	font-family:noidung
+}
+#wapper{
+	margin: 0 auto;
+	 
+	width: 100%;
+	background: #000000;
+}
+a{
+	text-decoration: none;
+	color:white;
+	font-size: 30px;
+	font-family: tieude;
+}
+.menu{
+	height: 200px;
+	text-align: center;
+	padding-top: 50px;
+/*	background: #CA3E6B*/
+}
+.menu ul li {
+	display: inline-block;
+	padding: 50px 100px;
+	text-transform: uppercase;
+}
+.menu h1{
+	font-family: body;
+	text-transform: uppercase;
+	font-size: 45px;
+	color: white;
+	line-height: 80px;
+	text-align: center;
+}
+.banner video{
+	width: 100%;
+	height: 1200px;
+/*	background: #36CB9F;*/
+}
+.about{
+	width: 100%;
+	height: 700px;
+
+	background-image:url("../img/56505453_2108908766067328_298736609187069952_o.jpg");
+	margin-top:0 auto;
+	position: relative
+}
+.about h1{
+	font-family: tieude;
+	color: white;
+	text-transform: uppercase;
+	padding-left: 50px;
+	font-size: 50px;
+}
+ 
+.about p{
+	font-family: noidung;
+	color: white;
+	padding-top: 30px;
+	padding-left: 50px;
+	font-size: 20px;
+}
+.noidung{
+	width: 40%;
+	position: absolute;
+	 
+	padding-top: 20px;
+	
+}
+.works{
+	width: 100%;
+	height: 1000px;
+	background:  #921618;
+}
+.works h1{
+	font-family: tieude;
+	color: white;
+	padding-left: 50px;
+	padding-top: 50px;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.works .wapper{
+	width: 100%;
+	height: 500px;
+/*	background: #4B1819;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: flex-start;
+	margin-top: 50px;
+}
+.works video{
+	width: 600px;
+	padding: 30px;
+}
+#footer {
+	width: 100%px;height: 140px; background: #000000; color: white;  
+	margin: 0 auto;
+}
+.cuoi{
+	padding: 50px 80px;
+}
+.hinhmangxh{
+	float: right;width: 50px; height: 50px;
+}
